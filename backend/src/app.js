@@ -13,6 +13,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({ success: true, message: 'CRUD API is running', data: null });
+});
+
 // Routes
 app.use('/api/items', itemRoutes);
 
