@@ -3,7 +3,7 @@
  */
 import axios from 'axios';
 
-const API_BASE_URL = '/api/items';
+const API_BASE_URL = 'https://crud-2026.vercel.app/api/items'; // Update with your deployed backend URL
 
 /**
  * Create a new item
