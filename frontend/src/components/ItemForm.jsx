@@ -23,6 +23,8 @@ function ItemForm({ onSubmit, editingItem, onCancel }) {
     setError('');
   }, [editingItem]);
 
+
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
